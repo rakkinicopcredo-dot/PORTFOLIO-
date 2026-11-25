@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# Vercel
+.vercel/
+
+# environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# visitor data from the local XAMPP version (contains real email addresses)
+xampp-php/data/*.json
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
